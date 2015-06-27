@@ -1,0 +1,71 @@
+h1{
+	font-family: 'Arial';
+	font-size: 50px;
+	color: #f4b566;
+	text-align: center;
+	padding-top: 40px;
+}
+
+h2{
+	font-family: 'Arial';
+	font-size: 30px;
+	color: #c6d553;
+}
+
+p{
+	font-family: 'Arial';
+	font-size: 30px;
+	color: blue;
+}
+
+
+button{
+	color: purple;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-color: purple;
+	background-color: #fff;
+	font-family: 'Roboto';
+	font-size: 20px;
+}
+
+#exemplo1{
+	font-family: 'Arial';
+	font-size: 20px;
+	color: red;
+}
+
+div.ex3 p{
+	font-family: 'Arial';
+	font-size: 30px;
+	color: #C71585;
+}
+
+#exemplo3{
+	font-family: 'Arial';
+	font-size: 20px;
+	color: #D2691E;
+}
+
+div.exemplos {
+	margin-top: 100px;
+	margin-left: 300px;
+}
+img{
+	margin-left: 1000px;
+	margin-top: -300px;
+}
+
+
+div.rodape{
+	height: 150px;
+	width: 100%;
+	background-color: #FFA500;
+	font-family: 'Arial';
+	font-size: 25px;
+	color: #fff;
+	text-align: center;
+	padding-top: 50px;
+}
