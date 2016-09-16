@@ -7,7 +7,7 @@
 
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
-  background-color:  #800000;;
+  background-color:  #521e83;
   }
 
   .navbar-inverse .navbar-nav>li>a {
@@ -19,8 +19,19 @@
   }
 
   .navbar-inverse {
-    background-color: #800000;;
+    background-color: #521e83;
  }
 
  .navbar-inverse {
-     border-color: #800000;; 
+     border-color: #521e83; 
+}
+
+.btn-primary{
+	background-color: #03899c;
+	border-color: #03899c;
+}
+
+
+ul.topnav li a:hover {background-color: #555;}
+
+ul.topnav li.icon {display: none;}

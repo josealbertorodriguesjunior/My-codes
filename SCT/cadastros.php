@@ -18,10 +18,10 @@ if (!isset($_SESSION['logado'])) {
  <meta charset="utf-8">
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
  <meta name="viewport" content="width=device-width, initial-scale=1">
- <title>Ficha de Cadastro</title>
+ <title>STC</title>
  <link href="css/bootstrap.min.css" rel="stylesheet">
 
- <link rel="icon" type="image/png" href="">
+ <link rel="icon" type="image/png" href="images/logo.png">
 
   <script src="js/bootstrap.min.js"> </script>
  <script type="text/javascript" language="javascript" src="js/jquery-1.9.1.js"></script>
@@ -66,12 +66,16 @@ $(window).load(function(){
     <span class="icon-bar"></span>
     <span class="icon-bar"></span>
    </button>
-   <a class="navbar-brand" href="#">Sistema de cadastro de trabalhadores</a>
+   <a class="navbar-brand" href="#">FCT</a>
   </div>
   <div id="navbar" class="navbar-collapse collapse">
    <ul class="nav navbar-nav navbar-right">
-   <li><a href="cadastros.php">HOME</a></li>
-    <li><a href="logout.php">Sair</a></li>
+   <li><a href="cadastros.php">Cadastros</a></li>
+    <li><a href="add_form.php">Adicionar Trabalhador</a></li>
+    <li><a href="edit.php">Editar Trabalhador</a></li>
+    <li><a href="view.php">Visualizar</a></li>
+    <li><a href="logout.php">SAIR</a></li>
+    <li> <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()"></a></li>
    </ul>
   </div>
  </div>

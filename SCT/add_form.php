@@ -18,9 +18,11 @@ if (!isset($_SESSION['logado'])) {
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
  <meta name="viewport" content="width=device-width, initial-scale=1">
  <title>SCT</title>
- <link rel="icon" type="image/png" href="">
+ <link rel="icon" type="image/png" href="images/logo.png">
  <link href="css/bootstrap.min.css" rel="stylesheet">
  <link href="css/style.css" rel="stylesheet">
+  <script src="js/bootstrap.min.js"> </script>
+ <script type="text/javascript" language="javascript" src="js/jquery-1.9.1.js"></script>
 </head>
 <body> 
 	<nav class="navbar navbar-inverse navbar-fixed-top">
@@ -32,12 +34,16 @@ if (!isset($_SESSION['logado'])) {
     <span class="icon-bar"></span>
     <span class="icon-bar"></span>
    </button>
-   <a class="navbar-brand" href="#">Sistema de cadastro de trabalhadores</a>
+   <a class="navbar-brand" href="#">FCT</a>
   </div>
   <div id="navbar" class="navbar-collapse collapse">
    <ul class="nav navbar-nav navbar-right">
-    <li><a href="cadastros.php">HOME</a></li>
-     <li><a href="logout.php">Sair</a></li>
+    <li><a href="cadastros.php">Cadastros</a></li>
+    <li><a href="add_form.php">Adicionar Trabalhador</a></li>
+    <li><a href="edit.php">Editar Trabalhador</a></li>
+    <li><a href="view.php">Visualizar</a></li>
+    <li><a href="logout.php">SAIR</a></li>
+     <li> <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()"></a></li>
    </ul>
   </div>
  </div>
@@ -131,7 +137,7 @@ if (!isset($_SESSION['logado'])) {
     </div>
 
     <div class="form-group col-md-2">
-      <label for="campo28">&nbsp;&nbsp;&nbsp;&nbsp;RG</label>
+      <label for="campo28">RG</label>
       <input type="text" class="form-control" id="campo28" name="campo16" required>
     </div>
 </div>

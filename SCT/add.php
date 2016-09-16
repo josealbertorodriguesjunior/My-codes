@@ -40,15 +40,15 @@ if ($_POST){
 
 			
 			//query insert cadastro			
-			$mysqli->query("INSERT INTO  (nome_completo, endereco, bairro, cidade, email, telefone,setor, cargo,data_admissao,data_demissao_aposentadoria, carga_horaria) VALUES ('$matricula','$nome_completo','$setor','$cargo' ,'$data_admissao','$carga')") OR trigger_error($MySQLi->error, E_USER_ERROR);
+			$mysqli->query("INSERT INTO  (nome_completo, endereco, bairro, cidade, email, telefone,setor, cargo,data_admissao,data_demissao_aposentadoria, carga_horaria) VALUES ('$nome_completo','$endereco','$bairro','$cidade','$email','$telefone','$setor','$cargo' ,'$data_admissao','$carga')") OR trigger_error($MySQLi->error, E_USER_ERROR);
 			//pegar id do cadastro
 			$chaveestrangeira = $mysqli->insert_id;				
 
 			
 
        		//query insert pessoal
-			$mysqli->query("INSERT INTO documentacao (estado_civil, escolaridade, cpf, data_nascimento, local_nascimento, rg, id_cadastro) VALUES 
-				('$cpf','$data_nascimento', '$local_nascimento', '$estado_nascimento', '$carteira_trabalho', '$serie_trabalho', '$uf_trabalho','$exp_trabalho','$rg', '$org_emissor_rg', '$exp_rg', '$titulo_eleitor', '$zona_titulo', '$secao_titulo', '$pis_pasep','$chaveestrangeira')") OR trigger_error($MySQLi->error, E_USER_ERROR);
+			$mysqli->query("INSERT INTO pessoal (estado_civil, escolaridade, cpf, data_nascimento, local_nascimento, rg, id_cadastro) VALUES 
+				('$estado_civil','$escolaridade','$cpf','$data_nascimento', '$local_nascimento','$rg','$chaveestrangeira')") OR trigger_error($MySQLi->error, E_USER_ERROR);
 			
 			
 			
