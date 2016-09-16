@@ -1,0 +1,42 @@
+.corpo{
+	padding: 100px;
+}
+
+
+.titulo h1{
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "arial";
+	color: #696969;
+	padding: 50px;
+	font-size: 25px;
+}
+
+.login form{
+	font-family: "Arial";
+	font-size: 18px;
+	margin-left: 36%;
+}
+
+.senha{
+	margin-left: 10px;
+}
+
+input{
+	margin-top: 50px;
+	padding: 7px;
+	width: 200px;
+}
+
+.entrar input{
+	font-family: "arial";
+	font-size: 20px;
+	color: #fff;
+	background-color: #800000;
+	border: 0px;
+	width: 200px;
+	height: 50px;
+	border-radius: 5px;
+	margin-left: 8%;
+}
+
